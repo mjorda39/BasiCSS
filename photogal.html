@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Getting Down to the BasiCSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="photogal.css">
+	<script src="photogal.js"></script>
+	<style>
+		#image {
+			border: 2px solid black;
+			height: 300px;
+			width: 400px;
+			margin-bottom: 18px;
+			position: relative;
+			left: 35%;
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<header id="main_header">
+		<h1>Photo Gallery</h1>
+	</header>
+	<nav id="main_nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="survey.html">A Quick Survey</a></li>
+			<li><a href="photogal.html">Gallery</a></li>
+			<li><a href="basicss.html">BasiCSS</a></li>
+		</ul>
+	</nav>
+	
+	<h1>Examples of Adding CSS to a Webpage</h1>
+	<p id="explanation">Below each image is a short description of what the image shows.</p>
+	<div id="slideshow">
+        <img src="slideshow.png" width="400" height="300" alt="Slideshow" id="image">
+    </div>
+	<div id="descriptions">
+		<p id="desc1" class="hidden">Inline styles are written within the HTML tag that they modify. In this case, the h2 tag 
+		is being modified.</p>
+		<p id="desc2" class="hidden">The bolded portion is an example of what's called an internal stylesheet, which is just CSS written 
+		in the head tags of the HTML element. This time, the style tags are used to enclose the CSS.</p>
+		<p id="desc3" class="hidden">This CSS is written in its own separate file with a .css extension. This is the best way to write CSS 
+		code to separate the document from how it is styled.</p>
+	</div>
+	<div id="buttons">
+		<input type="button" value="Original Image" id="btn0">
+		<input type="button" value="Inline" id="btn1">
+		<input type="button" value="Internal" id="btn2">
+		<input type="button" value="External" id="btn3">
+	</div>
+
+	<footer id="main_footer">
+		<ul>
+			<li><a href="https://www.facebook.com/profile.php?id=100000143260199">Facebook</a></li>
+			<li><a href="https://twitter.com/mjorda39">Twitter</a></li>
+		</ul>
+		<p>&copy;Copyright Michael Jordan 2015</p>
+		<a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> 
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+	</footer>
+</div>
+</body>
+</html>

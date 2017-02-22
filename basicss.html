@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Getting Down to the BasiCSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="basics_style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="style.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<header id="main_header">
+		<h1>BasiCSS</h1>
+	</header>
+	<nav id="main_nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="survey.html">A Quick Survey</a></li>
+			<li><a href="photogal.html">Gallery</a></li>
+			<li><a href="basicss.html">BasiCSS</a></li>
+		</ul>
+	</nav>
+	<h2>What is CSS?</h2>
+	<p>For those who don't know, CSS stands for Cascading Style Sheets, which sounds scary
+		and difficult but couldn't be simpler. Along with <abbr title="HyperText Markup Language">HTML</abbr>,
+		CSS makes up the core display of a website. Basically, HTML structures the website and CSS makes everything look gorgeous through positioning, color schemes, borders and much more!</p>
+	<h2>Starting with CSS</h2>
+	<p>If you come from HTML, you know that you need a text editor to edit webpages. For newcomers, a text editor is just what it 
+	sounds like: it's used to edit plain text. There is usually a default text editor on Windows computers (Notepad), but I would 
+	recommend Notepad++. It hightlights different parts of your code so that you can distinguish it and easily locate what you need.</p>
+	<h2>Ways to Implement CSS</h2>
+	<pre>There are 3 different ways to implement CSS in a webpage.
+	
+1. In-line: the CSS is written on the same line as the HTML it modifies, highly discouraged
+2. Internal: the CSS is written in the head tags at the top of the HTML document, not the best way to style a site with many pages
+3. In a stylesheet: the CSS is written in an entirely different file, the best way to style an entire website with one file, must be linked 
+via a link tag in the head tag
+	
+This site will focus on the third manner of implementing CSS. In an effort to reduce clutter on this page, all examples will be displayed 
+in the gallery page. Head on over there to see examples of all three ways to add CSS to a website.
+	</pre>
+	<h2>Syntax Rules</h2>
+	<p>Syntax rules for CSS are simple: a tag name is followed by a pair of curly braces and all CSS code inside of the braces. To apply a style, 
+	a property such as width is followed by a colon, a value such as 100px, and finally a semi-colon.</p>
+	<h2>ID please! Class is in session</h2>
+	<p>Two important aspects of CSS are the ID and class. An ID is given to an HTML element to single out that element and apply a style to it. A 
+	class is basically the same thing except you apply it to multiple elements that you want to style the same way.</p>
+	<h2>A Select(or) Few</h2>
+	<pre>Just about any HTML property can be changed. Some common ones are width, height, text-align, and margin, which are all self-explanatory. 
+	
+You can change the background color with the background property, set a border with the border property, or change text color with 
+guess which property? The text property, of course! Some properties have different units for their values. Colors can be set with hexadecimal 
+values, color names or RGB values. Sizes can be set with pixels or percentages. As long as you know HTML tags, you know the basics of CSS.
+	
+Various text selectors include font-family, font-size, font-weight (bold or normal text), font-style (italic or normal), and text-decoration 
+(underline, overline, or line-through).
+	
+A border obviously borders an element on the page. It can be different sizes, dashed or dotted, and different colors.
+	
+Padding gives space between an element's border and the actual content.
+	
+Click the buttons at the bottom of the page to see how CSS can completely and easily change the style of a site. Background colors, colors, and background images are 
+changed for each different button. Refreshing the page or going to another page will revert back to the default style.</pre>
+	
+	<h2>Your turn</h2>
+	<p>If you don't want to write CSS with your own text editor, you can head over to <a target="_blank" href="http://www.w3schools.com/css/tryit.asp?filename=trycss_default">W3 Schools</a> 
+	to test out some CSS in an online editor.</p>
+	
+	<h2>That's all folks!</h2>
+	<p>Believe it or not, you know the basics of CSS. There are plenty of tutorials on the web with actual code samples, but I just wanted to 
+	introduce you to the idea of CSS and what it can do. Your only limit is your imagination.</p>
+	<input type="button" id="nightView" value="Night View">
+	<input type="button" id="treeHugger" value="Tree Hugger">
+	<input type="button" id="sportsFan" value="Sports Fan">
+	<input type="button" id="computerGeek" value="Computer Geek">
+	</div>
+	<footer id="main_footer">
+		<ul>
+			<li><a href="https://www.facebook.com/profile.php?id=100000143260199">Facebook</a></li>
+			<li><a href="https://twitter.com/mjorda39">Twitter</a></li>
+		</ul>
+		<p>&copy;Copyright Michael Jordan 2015</p>
+		<a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> 
+		<a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+	</footer>
+
+</body>
+</html>

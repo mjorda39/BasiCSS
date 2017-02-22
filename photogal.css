@@ -1,0 +1,23 @@
+h1, #explanation {
+	text-align: center;
+}
+
+#descriptions {
+	padding: 10px;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.revealed {
+	display: block;
+}
+
+#buttons {
+	width: 500px;
+	position: relative;
+	left: 515px;
+	margin-bottom: 10px;
+}

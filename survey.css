@@ -1,0 +1,21 @@
+#survey {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Gadugi, "Times New Roman", serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 75px;
+	width: 325px;
+}
+
+#submit {
+	background-color:#1975FF;
+	color: #fc0;
+	font-weight:bold;
+}

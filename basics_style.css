@@ -1,0 +1,26 @@
+#wrapper p {
+	padding: 5px;
+}
+
+h1, h2 {
+	margin-top: -8px;
+	color: white;
+}
+
+input {
+	margin-left: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+pre {
+	font-family: "Times New Roman";
+	font-size: 16px;
+	padding: 3px;
+	
+}
+
+p, pre, iframe {
+	display: none;
+	color: white;
+}
