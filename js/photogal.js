@@ -6,25 +6,25 @@ window.onload = function() {
 };
 
 function original() {
-	document.getElementById("image").src = "slideshow.png";
+	document.getElementById("image").src = "../images/slideshow.png";
 }
 
 function inline() {
-	document.getElementById("image").src = "inline.png";
+	document.getElementById("image").src = "../images/inline.png";
 	desc1.className = "revealed";
 	desc2.className = "hidden";
 	desc3.className = "hidden";
 }
 
 function internal() {
-	document.getElementById("image").src = "internal.jpg";
+	document.getElementById("image").src = "../images/internal.jpg";
 	desc1.className = "hidden";
 	desc2.className = "revealed";
 	desc3.className = "hidden";
 }
 
 function external() {
-	document.getElementById("image").src = "external.gif";
+	document.getElementById("image").src = "../images/external.gif";
 	desc1.className = "hidden";
 	desc2.className = "hidden";
 	desc3.className = "revealed";
